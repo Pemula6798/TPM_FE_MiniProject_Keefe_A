@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    margin: 0;
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.card {
+    margin:0;
+    background-color: white; 
+    border: none; 
+    border-radius: 10px; 
+    width: 350px; 
+    margin: auto 0;
+}
+.card2 {
+    padding: 20px;
+    margin-left:1%;
+    margin-right:1%;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    width: 25%;
+    height: 2px;
+    background-color: #cbc8c8;
+    transition: 0.s background-color ease-in-out;
+    margin: 1px 3px;
+    border-radius: 9999px;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: #000000;
+}
+
+.btn2{
+    background-color: #000000;
+}
+
+.header {
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.close-icon {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 5px;
+    width: 5%;
+    height: auto;
+}
+
+.gambar {
+    margin-top: 40px;
+
+}
+
+.image {
+    width: 35%;
+    height: 35%;
+}
+
+.persen {
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.paragraf {
+
+    display: block;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-size: 14px;
+    text-align:left;
+    line-height: 200%;
+    color: #615D5D;
+    margin-right: 5%;
+}
+
+.star {
+    margin:0;
+    display: flex;
+    align-self:center;
+    width: 100%;
+    height: auto;
+}
